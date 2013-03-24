@@ -6,7 +6,7 @@ it('substitutes {{\d}} with remaning args', function(){
 
 });
 
-it('substitues {{\w}} with a context object', function(){
+it('substitutes {{\w}} with given context object', function(){
 
   expect(format('foo {{corge}} bar {{qux}}', { corge: 3, qux: 14 })).to.equal('foo 3 bar 14');
 
