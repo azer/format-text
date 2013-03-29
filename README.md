@@ -13,9 +13,9 @@ $ npm install new-format
 ```js
 var format = require('new-format')
 
-format('Hello {{0}}. The weather is currently {{1}}°.', 'Kitty', '67')
+format('Hello {0}. The weather is currently {1}°.', 'Kitty', '67')
 
-format('Hello {{name}}, The weather is currently {{degree}}°', { name:'Kitty', degree: 67 })
+format('Hello {name}, The weather is currently {degree}°', { name:'Kitty', degree: 67 })
 ```
 
 ![](https://dl.dropbox.com/s/9q2p5mrqnajys22/npmel.jpg?token_hash=AAHqttN9DiGl63ma8KRw-G0cdalaiMzrvrOPGnOfDslDjw)
