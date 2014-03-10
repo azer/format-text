@@ -1,16 +1,16 @@
 {
-  "name": "new-format",
+  "name": "format-text",
   "version": "0.0.1",
-  "description": "",
+  "description": "String formatting library inspired from Python",
   "main": "index.js",
   "scripts": {
-    "test": "fox"
+    "test": "prova"
   },
   "devDependencies": {
-    "fox": "*"
+    "prova": "*"
   },
   "repository": {
-    "url": "git@github.com:azer/new-format.git",
+    "url": "git@github.com:azer/format-text.git",
     "type": "git"
   },
   "author": "Azer Koçulu <azer@kodfabrik.com>",
