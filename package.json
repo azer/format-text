@@ -1,6 +1,6 @@
 {
   "name": "format-text",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "String formatting library inspired from Python",
   "main": "index.js",
   "scripts": {
