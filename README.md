@@ -11,7 +11,7 @@ $ npm install new-format
 ### Usage
 
 ```js
-format = require('text-format')
+format = require('format-text')
 
 format('Hello {0}. The weather is currently {1}°.', 'Kitty', '67')
 // => Hello Kitty. The weather is currently 67°.
