@@ -9,7 +9,7 @@ function format(text) {
     context = Array.prototype.slice.call(arguments, 1);
   }
 
-  return String(text).replace(/\{?\{([^{}]+)}}?/g, replace(context));
+  return String(text).replace(/\{?\{([^\{\}]+)\}\}?/g, replace(context));
 };
 
 function replace (context, nil){
