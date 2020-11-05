@@ -5,7 +5,7 @@ String formatting library inspired from Python
 ### Install
 
 ```bash
-$ npm install new-format
+$ npm install azer/format-text
 ```
 
 ### Usage
