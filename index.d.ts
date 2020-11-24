@@ -3,5 +3,5 @@ declare module 'format-text'
 
 export default function(
   text: string,
-  ctx: { [key: string]: any }
+  ctx: { [key: string]: string | number }
 ): string
